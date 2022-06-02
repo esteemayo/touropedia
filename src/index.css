@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.top-left {
+  position: relative;
+  top: 0;
+  left: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+
+.tour-name {
+  color: #333;
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.tag-error-msg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h4::before,
+h4::after {
+  background-color: #000;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h4::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.top-left {
+  position: absolute;
+}
+
+input[type='file'] {
+  display: block;
+}
