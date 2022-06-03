@@ -59,7 +59,7 @@ const Home = () => {
           </MDBContainer>
         </MDBCol>
       </MDBRow>
-      {tours.length > 0 && (
+      {tours.length > 0 && !searchQuery && (
         <Pagination
           setCurrentpage={setCurrentPage}
           currentPage={currentPage}
